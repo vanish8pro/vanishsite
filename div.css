@@ -1,0 +1,377 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: black;
+}
+
+.wrapper{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+header{
+	width: 70%;
+	height: 50px;
+	margin: auto;
+	max-width: 1000px;
+	max-height: 10%;
+	margin-top: 7px;
+}
+header .vk{
+float: right;
+margin-right: 15px;
+
+}
+header .vk img{
+	width: 32px;
+	height: 32px;
+	max-height: 64px;
+	max-width: 64px;
+	margin-right: 0px;
+	margin-left: 10px;
+}
+
+header .vk img:hover{
+	background: #597da3;
+	border-radius: 11px 7px 11px 7px;
+}
+
+#img1:hover{
+	background: black;
+	border-radius: 11px 7px 11px 7px;
+}
+.web{
+	height: auto;
+    margin: auto;
+	max-width: 1000px;
+	width: 80%;
+}
+.webtext{
+	font-size: 17px;
+	margin-top: 13px;
+}
+.webtext a{
+    color: white;
+	text-decoration: none;
+	font-family: cursive;
+}
+.webtext a:hover{
+color: silver;
+}
+
+header .textlogo{
+	float: left;
+}
+header .textlogo .text {
+font-size: 20px;
+color: silver;
+font-family: Comic Sans Ms;
+}
+
+.logo{
+
+    width: 60%;
+    height: auto;
+   text-align: center;
+   margin: auto;
+   max-width: 1000px;
+   max-height: auto;
+}
+.logo .vk img{
+	width: 32px;
+	height: 32px;
+	float: right;
+	max-height: 10%;
+	max-width: 10%;
+}
+.logo .logophoto img{
+	max-width: 90%;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+	border: 5px solid silver;
+	border-radius: 30px 3px 30px 3px;
+	position: relative;
+}
+
+.clear{
+	clear: both;
+	display: block;
+}
+
+.music-box{
+	width: 70%;
+	height: auto;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: comfortaa, sans-serif;
+	margin:auto;	
+	margin-top: 50px;
+	max-width: 1000px;
+	box-sizing: border-box;
+}
+
+.music{
+	height: 100px;
+	width: 90%;
+	border: 1px solid silver;
+	border-radius: 20px;
+	margin:auto;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+audio {
+	margin-top: 5%;
+	width: 27%;
+	border-radius: 5px;
+	margin-right: 30px;
+	float: right;
+	min-width: 200px;
+
+	
+}
+
+.music img {
+	height: 105%;
+	width: auto;
+	float: left;
+	margin-left: 10px;
+
+}
+.music-text{
+	color: white;
+	margin-left: 20px;
+	margin-top: 31px;
+	font-size: 43%;
+	font-family: Comic Sans Ms;
+	word-break: break-all;
+	float: left;
+}
+
+.ticket{
+	text-align: center;
+	margin-top: 31px;
+}
+button{
+	margin: auto;
+	height: 50px;
+	width: 250px;
+	border: solid #Ff0000;
+	border-radius: 15px;
+	background-color: black;
+	color: rgb(255, 250, 250);
+	text-decoration: none;
+	font-family: Formular,sans-serif;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+button:hover{
+	background: #1a1a1a;
+}
+
+.buy{
+	font-family: Formular,sans-serif;
+	font-size: 19px;
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin-left: 25%;
+	margin-top: 7px;
+}
+.buy:hover{
+	color: silver;
+}
+
+
+
+@media screen and (min-width: 790px) and (max-width: 1270px){     
+audio {
+	margin-top: 5%;
+	width: 10%;
+	border: 1px solid #72b75e;
+	border-radius: 5px;
+	margin-right: 35px;
+	float: right;
+		
+}
+.buy{
+	font-family: Formular,sans-serif;
+	font-size: 104%;
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin-left: 23%;
+	margin-top: 7px;
+}
+.music img {
+	height: 90%;
+	width: auto;
+	float: left;
+	margin-left: 1px;
+}
+.music-text{
+	color: white;
+	margin-left: 20px;
+	margin-top: 31px;
+	font-size: 27%;
+	font-family: Comic Sans Ms;
+	word-break: break-all;
+	float: left;
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 790px){     
+audio {
+	margin-top: 5%;
+	width: 10%;
+	border-radius: 5px;
+	margin-right: 30px;
+	float: right;
+		
+}
+.music img {
+	height: 90%;
+	width: auto;
+	float: left;
+	margin-left: 1px;
+}
+.buy{
+	font-family: Formular,sans-serif;
+	font-size: 80%;
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin-left: 19%;
+	margin-top: 7px;
+}
+.music-text{
+	color: white;
+	margin-left: 20px;
+	margin-top: 31px;
+	font-size: 27%;
+	font-family: Comic Sans Ms;
+	word-break: break-all;
+	float: left;
+}
+}
+
+@media screen and (min-width: 350px) and (max-width: 550px){     
+audio {
+	margin-left: 21px;
+	width: 30px;
+	float: left;
+	margin-top: 10px;
+		
+}
+.web{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.webtext{
+	font-size: 15px;
+	margin-top: 17px;
+}
+.music img {
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-left: 1px;
+	margin-top: 20px;
+}
+.buy{
+	font-family: Formular,sans-serif;
+	font-size: 9px;
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin-left: 17%;
+	margin-top: 3px;
+}
+.music-text{
+	color: white;
+	text-align: center; 
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: Comic Sans Ms;
+	word-break: break-all;
+	float: left;
+
+}
+header .vk img{
+	width: 16px;
+	height: 16px;
+	max-height: 64px;
+	max-width: 64px;
+	margin-right: -1px;
+	margin-left: 0px;
+}
+.logo .logophoto img{
+	max-width: 80%;
+	border: 1px solid silver;
+	margin-left: 21px;
+}
+.music-box{
+	font-size: 15px;
+	margin-top: 10px;
+	width: 100%;
+}
+.music{
+	height: 100px;
+	width: 100%;
+}
+button{
+	width: 130px;
+	height: 38px;
+	font-size: 13px;
+	margin-top: -20px;
+}
+header{
+	width: 70%;
+	height: 30px;
+	margin: auto;
+	max-width: 1000px;
+	max-height: 10%;
+	margin-top: 7px;
+}
+
+}
+@media screen and (min-width: 50px) and (max-width: 350px){
+	
+
+	.buy{
+	font-family: Formular,sans-serif;
+	font-size: 30%;
+	color: white;
+	font-weight: bold;
+	float:left;
+	margin-left: 21%;
+	margin-top: 7px;
+}
+header .vk img{
+	width: 11px;
+	height: 11px;
+	margin-left: 0px;
+}
+.logo .logophoto img{
+	max-width: 70%;
+	border: 1px solid silver;
+}
+.music-box{
+	font-size: 10px;
+	margin-top: 10px;
+}
+audio {
+	margin-top: 5%;
+	width: 10px;
+	border-radius: 5px;
+	margin-right: 15px;
+	float: right;
+	margin-top: 3px;		
+}
+}
